@@ -3,399 +3,490 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI互动培训考试系统 | 企业培训官网介绍</title>
-    <meta
-      name="description"
-      content="AI互动培训考试系统官网介绍页。面向企业培训场景，覆盖 AI 生成课程、互动学习、考试考核、数据看板与私有化部署。"
-    />
-    <meta name="theme-color" content="#123534" />
+    <title>AI互动培训考试系统 — 企业智能培训平台</title>
+    <meta name="description" content="AI互动培训考试系统，企业一站式智能培训解决方案。AI 生成课程、互动学习、考试考核、数据追踪，让培训效果可量化。" />
+    <meta name="theme-color" content="#09090b" />
     <meta property="og:title" content="AI互动培训考试系统" />
-    <meta
-      property="og:description"
-      content="把培训、互动学习、考试考核与数据追踪放进一套系统，适合公开展示与客户传播。"
-    />
+    <meta property="og:description" content="AI 驱动的企业培训新范式。一站式课程生成、互动学习、考试考核与数据追踪平台。" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23123534'/%3E%3Cpath d='M17 18h30v6H17zm0 11h30v6H17zm0 11h20v6H17z' fill='%23f8f2e8'/%3E%3C/svg%3E"
-    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236366f1'/%3E%3Cpath d='M20 18h24v5H20zm0 10h24v5H20zm0 10h16v5H20z' fill='white' opacity='.9'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;900&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="site-bg"></div>
-    <div class="noise"></div>
+    <!-- ========== HEADER ========== -->
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#">
+          <span class="logo-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect width="28" height="28" rx="7" fill="currentColor"/>
+              <path d="M8 8h12v3H8zm0 5h12v3H8zm0 5h8v3H8z" fill="#09090b" opacity=".85"/>
+            </svg>
+          </span>
+          <span class="logo-text">AI互动培训考试系统</span>
+        </a>
+        <nav class="main-nav" id="main-nav">
+          <a href="#features">产品功能</a>
+          <a href="#workflow">解决方案</a>
+          <a href="#deploy">部署方式</a>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn-ghost btn-sm" href="#contact">联系我们</a>
+          <a class="btn btn-primary btn-sm" href="#contact">预约演示</a>
+        </div>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
 
-    <div class="shell">
-      <div class="announcement-bar reveal">
-        <span>企业培训数字化升级</span>
-        <p>从课程制作、互动学习到考试留痕，全部收敛到同一平台。</p>
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-grid-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-badge fade-up">
+          <span class="badge-dot"></span>
+          全新发布
+        </div>
+        <h1 class="hero-title fade-up">
+          AI 驱动的<br/>企业培训新范式
+        </h1>
+        <p class="hero-desc fade-up">
+          从课程创建到考试考核，一站式智能培训解决方案。<br class="hide-mobile"/>
+          AI 赋能内容生产，互动学习提升参与度，全程数据追踪让培训效果可量化。
+        </p>
+        <div class="hero-cta fade-up">
+          <a class="btn btn-primary btn-lg" href="#contact">预约产品演示</a>
+          <a class="btn btn-outline-light btn-lg" href="#features">了解产品功能</a>
+        </div>
       </div>
 
-      <header class="header reveal">
-        <a class="brand" href="#top">
-          <span class="brand-mark">AI</span>
-          <span class="brand-text">
-            <strong>AI互动培训考试系统</strong>
-            <small>AI Training & Assessment Platform</small>
-          </span>
-        </a>
-
-        <nav class="nav">
-          <a href="#highlights">产品亮点</a>
-          <a href="#workflow">使用流程</a>
-          <a href="#roles">角色界面</a>
-          <a href="#deployment">部署方式</a>
-        </nav>
-
-        <a class="nav-cta" href="#contact">获取演示方案</a>
-      </header>
-
-      <main id="top">
-        <section class="hero reveal">
-          <div class="hero-copy">
-            <p class="eyebrow">面向企业内训、制度宣导、合规考核</p>
-            <h1>不是另一个题库系统，而是一套可公开展示的企业培训平台。</h1>
-            <p class="hero-text">
-              AI互动培训考试系统把课程生成、互动学习、考试考核和数据追踪整合为统一体验。对管理者，它是培训运营平台；对员工，它是清晰、可推进、可完成的学习路径；对客户，它是一眼能看懂价值的数字化培训产品。
-            </p>
-
-            <div class="hero-actions">
-              <a class="button button-primary" href="#highlights">查看核心能力</a>
-              <a class="button button-ghost" href="#contact">获取演示话术</a>
-            </div>
-
-            <div class="proof-row">
-              <span>AI课程生成</span>
-              <span>互动检查点</span>
-              <span>考试闭环</span>
-              <span>数据看板</span>
-              <span>私有化部署</span>
-            </div>
-
-            <div class="metric-grid">
-              <article>
-                <strong data-count="2">0</strong>
-                <span>核心角色端</span>
-              </article>
-              <article>
-                <strong data-count="3">0</strong>
-                <span>互动检查点类型</span>
-              </article>
-              <article>
-                <strong data-count="15">0</strong>
-                <span>默认考试题量</span>
-              </article>
-              <article>
-                <strong data-count="30">0</strong>
-                <span>秒级进度心跳追踪</span>
-              </article>
+      <!-- Product Mockup -->
+      <div class="hero-mockup fade-up">
+        <div class="mockup-glow"></div>
+        <div class="mockup-frame">
+          <div class="mockup-toolbar">
+            <div class="toolbar-dots"><i></i><i></i><i></i></div>
+            <div class="toolbar-url">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              app.ai-training.com/admin/dashboard
             </div>
           </div>
-
-          <div class="hero-visual">
-            <div class="device-stage stage-large">
-              <div class="window-bar">
-                <span></span><span></span><span></span>
+          <div class="mockup-body">
+            <aside class="mockup-sidebar">
+              <div class="sidebar-brand">
+                <span class="sidebar-icon">AI</span>
+                <span>管理后台</span>
               </div>
-              <div class="dashboard-preview">
-                <div class="dashboard-head">
-                  <div>
-                    <p>管理端总览</p>
-                    <h2>培训进度可视化</h2>
-                  </div>
-                  <div class="mini-badge">Admin View</div>
+              <div class="sidebar-nav">
+                <div class="sidebar-item active">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                  数据看板
                 </div>
-
-                <div class="stats-strip">
-                  <article>
-                    <em>课程总数</em>
-                    <strong>12</strong>
-                  </article>
-                  <article>
-                    <em>员工人数</em>
-                    <strong>186</strong>
-                  </article>
-                  <article>
-                    <em>平均通过率</em>
-                    <strong>89%</strong>
-                  </article>
+                <div class="sidebar-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                  课程管理
                 </div>
-
-                <div class="chart-card">
-                  <div class="bars">
-                    <span style="height: 42%"></span>
-                    <span style="height: 64%"></span>
-                    <span style="height: 57%"></span>
-                    <span style="height: 82%"></span>
-                    <span style="height: 76%"></span>
-                    <span style="height: 92%"></span>
-                  </div>
-                  <div class="chart-caption">近阶段学习完成率持续提升</div>
+                <div class="sidebar-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  员工管理
+                </div>
+                <div class="sidebar-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  考试管理
+                </div>
+                <div class="sidebar-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                  系统设置
                 </div>
               </div>
-            </div>
-
-            <div class="floating-card stage-small employee-card">
-              <div class="mini-badge">Employee Flow</div>
-              <h3>员工学习路径</h3>
-              <ul>
-                <li>进入我的课程</li>
-                <li>边学边做互动检查点</li>
-                <li>完成课时后进入考试</li>
-              </ul>
-            </div>
-
-            <div class="floating-card stage-small accent-card">
-              <div class="mini-badge">Why it matters</div>
-              <h3>培训结果不只看分数</h3>
-              <p>系统保留学习进度、互动答题和考试结果三层数据，让培训真正可管理、可追踪、可复盘。</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="brand-strip reveal">
-          <p>适合这些典型场景</p>
-          <div>
-            <span>新员工入职培训</span>
-            <span>制度流程宣导</span>
-            <span>安全与合规培训</span>
-            <span>岗位技能提升</span>
-            <span>阶段性认证考试</span>
-          </div>
-        </section>
-
-        <section id="highlights" class="section reveal">
-          <div class="section-head">
-            <p>产品亮点</p>
-            <h2>让客户快速理解“这套系统为什么比普通课件平台更值钱”</h2>
-          </div>
-
-          <div class="feature-showcase">
-            <article class="feature-lead panel">
-              <div class="feature-tag">01</div>
-              <h3>AI 生成课程，不再从零做培训内容</h3>
-              <p>
-                系统可基于已有培训资料生成课程结构、时间轴、旁白文本、互动题和考试题。客户看到的不只是上传文件，而是一整套内容生产能力。
-              </p>
-              <div class="inline-points">
-                <span>结构生成</span>
-                <span>时间轴编排</span>
-                <span>旁白生成</span>
-                <span>考试题生成</span>
+            </aside>
+            <main class="mockup-main">
+              <div class="mockup-topbar">
+                <h3>数据看板</h3>
+                <div class="mockup-avatar">W</div>
               </div>
-            </article>
-
-            <article class="panel">
-              <div class="feature-tag">02</div>
-              <h3>互动式学习，提升完成率与理解度</h3>
-              <p>支持单选、多选、拖拽匹配、热点点击等互动检查点，学员不是被动看课件，而是在学习过程中不断确认理解。</p>
-            </article>
-
-            <article class="panel">
-              <div class="feature-tag">03</div>
-              <h3>过程追踪，让培训真正可管理</h3>
-              <p>系统持续记录课时进度、停留时长和互动完成情况，管理者能知道员工学到哪里，而不是只在考试时才知道结果。</p>
-            </article>
-
-            <article class="panel">
-              <div class="feature-tag">04</div>
-              <h3>考试闭环，把学习结果落到考核</h3>
-              <p>课程完成后直达考试，支持成绩判定、是否通过、结果存档与导出，形成从培训到考核的完整闭环。</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section contrast-section reveal">
-          <div class="section-head dual">
-            <div>
-              <p>价值表达</p>
-              <h2>官网展示时最有说服力的，不是堆功能，而是说清楚系统替客户做成了什么。</h2>
-            </div>
-            <div class="body-copy">
-              对外传播建议突出三件事：降低培训制作成本、提高培训执行效率、沉淀可导出的过程与结果数据。
-            </div>
-          </div>
-
-          <div class="value-cards">
-            <article class="panel value-card">
-              <h3>降本</h3>
-              <p>课程内容生成更快，制度更新后可以更快完成培训内容迭代。</p>
-            </article>
-            <article class="panel value-card">
-              <h3>提效</h3>
-              <p>把培训、学习、互动、考试、统计都放在一套系统里，减少多工具切换与人工整理。</p>
-            </article>
-            <article class="panel value-card">
-              <h3>可管控</h3>
-              <p>既有学习过程追踪，也有考试结果留痕，便于管理层复盘培训效果。</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="workflow" class="section reveal">
-          <div class="section-head">
-            <p>使用流程</p>
-            <h2>对客户最好讲的一条业务主线</h2>
-          </div>
-
-          <div class="journey-grid">
-            <article class="journey-card panel">
-              <span>1</span>
-              <h3>上传培训资料</h3>
-              <p>把已有制度、流程、培训文档导入系统，作为课程基础。</p>
-            </article>
-            <article class="journey-card panel">
-              <span>2</span>
-              <h3>AI 生成课程与题目</h3>
-              <p>系统生成章节结构、旁白、互动检查点和考试内容。</p>
-            </article>
-            <article class="journey-card panel">
-              <span>3</span>
-              <h3>员工按路径学习</h3>
-              <p>员工在学习中完成互动题，系统同步记录学习过程。</p>
-            </article>
-            <article class="journey-card panel">
-              <span>4</span>
-              <h3>课程完成后考试</h3>
-              <p>学完即考，形成培训结果，支持通过判断与考试留档。</p>
-            </article>
-            <article class="journey-card panel">
-              <span>5</span>
-              <h3>管理端查看结果</h3>
-              <p>通过看板、导出和动态记录，快速掌握整体培训执行情况。</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="roles" class="section reveal">
-          <div class="section-head">
-            <p>角色界面</p>
-            <h2>公开展示时，页面一定要让客户一眼看到“谁在用、怎么用”</h2>
-          </div>
-
-          <div class="role-layout">
-            <article class="role-panel panel admin-panel">
-              <div class="role-top">
-                <div>
-                  <p>管理员端</p>
-                  <h3>培训管理视角</h3>
+              <div class="mockup-stats">
+                <div class="mock-stat">
+                  <span class="mock-stat-label">课程总数</span>
+                  <span class="mock-stat-value">12</span>
+                  <span class="mock-stat-trend up">+3 本月</span>
                 </div>
-                <span class="mini-badge">Admin</span>
-              </div>
-              <ul>
-                <li>创建与发布课程</li>
-                <li>给员工分配培训任务</li>
-                <li>查看通过率与学习时长</li>
-                <li>导出学习进度与考试成绩</li>
-              </ul>
-            </article>
-
-            <article class="role-panel panel employee-panel">
-              <div class="role-top">
-                <div>
-                  <p>员工端</p>
-                  <h3>学习执行视角</h3>
+                <div class="mock-stat">
+                  <span class="mock-stat-label">在学员工</span>
+                  <span class="mock-stat-value">186</span>
+                  <span class="mock-stat-trend up">+24 本周</span>
                 </div>
-                <span class="mini-badge">Employee</span>
+                <div class="mock-stat">
+                  <span class="mock-stat-label">平均通过率</span>
+                  <span class="mock-stat-value">89%</span>
+                  <span class="mock-stat-trend up">↑ 5%</span>
+                </div>
+                <div class="mock-stat">
+                  <span class="mock-stat-label">学习完成率</span>
+                  <span class="mock-stat-value">76%</span>
+                  <span class="mock-stat-trend up">↑ 12%</span>
+                </div>
               </div>
-              <ul>
-                <li>查看我的课程</li>
-                <li>继续上次学习进度</li>
-                <li>完成互动检查点</li>
-                <li>进入考试并查看结果</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section id="deployment" class="section reveal">
-          <div class="section-head">
-            <p>部署方式</p>
-            <h2>对外公开传播时，建议主推 Web 版，桌面版作为补充交付能力</h2>
-          </div>
-
-          <div class="deploy-grid">
-            <article class="panel deploy-card featured-deploy">
-              <div class="deploy-head">
-                <p>推荐展示口径</p>
-                <h3>Web 版部署</h3>
+              <div class="mockup-chart-area">
+                <div class="mock-chart-header">
+                  <span>学习趋势</span>
+                  <span class="mock-chart-tab">近 30 天</span>
+                </div>
+                <div class="mock-chart">
+                  <div class="mock-bar" style="--h:38%"></div>
+                  <div class="mock-bar" style="--h:52%"></div>
+                  <div class="mock-bar" style="--h:48%"></div>
+                  <div class="mock-bar" style="--h:65%"></div>
+                  <div class="mock-bar" style="--h:58%"></div>
+                  <div class="mock-bar" style="--h:72%"></div>
+                  <div class="mock-bar" style="--h:68%"></div>
+                  <div class="mock-bar" style="--h:85%"></div>
+                  <div class="mock-bar" style="--h:78%"></div>
+                  <div class="mock-bar" style="--h:92%"></div>
+                </div>
               </div>
-              <p>适合发链接、远程演示、试点上线和客户评估，传播效率更高，也更符合官网宣传页的对外形象。</p>
-              <ul>
-                <li>浏览器访问，传播成本低</li>
-                <li>适合客户试用与方案演示</li>
-                <li>便于后续扩展到内网与私有化环境</li>
-              </ul>
-            </article>
-
-            <article class="panel deploy-card">
-              <div class="deploy-head">
-                <p>补充交付能力</p>
-                <h3>桌面安装版</h3>
-              </div>
-              <p>适合固定终端、弱网环境或特殊交付要求场景，作为项目型客户的补充方案更有说服力。</p>
-              <ul>
-                <li>支持打包交付</li>
-                <li>适合指定终端安装</li>
-                <li>适合局域网或特定环境落地</li>
-              </ul>
-            </article>
+            </main>
           </div>
-        </section>
-
-        <section class="section security-section reveal">
-          <div class="section-head dual">
-            <div>
-              <p>面向客户的补充说明</p>
-              <h2>如果客户关心的是数据、部署和管理控制，这套系统也能接得住。</h2>
-            </div>
-          </div>
-
-          <div class="security-grid">
-            <article class="panel">
-              <h3>培训过程留痕</h3>
-              <p>课程进度、互动结果、考试成绩都可留档，适合内训考核和管理复盘。</p>
-            </article>
-            <article class="panel">
-              <h3>本地化部署能力</h3>
-              <p>支持本地 Web 与桌面交付形态，便于对接私有化、内网或项目型实施场景。</p>
-            </article>
-            <article class="panel">
-              <h3>可持续扩展</h3>
-              <p>后续可继续扩展课程模板、品牌化界面、更多互动类型和企业管理规则。</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="contact" class="final-cta reveal">
-          <div>
-            <p class="eyebrow">公开展示建议话术</p>
-            <h2>这是一套把培训做成“可执行、可追踪、可考核”的企业级数字化平台。</h2>
-            <p>
-              如果你需要把这页直接发给客户，它现在已经是官网宣传页口径；如果你还要继续用于招投标、演示汇报或品牌化官网，我也可以在这版基础上继续深化。
-            </p>
-          </div>
-          <div class="cta-actions">
-            <a class="button button-primary" href="#top">返回顶部</a>
-            <a class="button button-ghost" href="#deployment">查看部署能力</a>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer reveal">
-        <div>
-          <strong>AI互动培训考试系统</strong>
-          <p>适合公开传播、客户发链路、方案介绍与试点演示。</p>
         </div>
-      </footer>
-    </div>
+      </div>
+    </section>
+
+    <!-- ========== SCENE STRIP ========== -->
+    <section class="scene-strip">
+      <div class="container">
+        <p class="scene-label">覆盖多种企业培训场景</p>
+        <div class="scene-tags">
+          <span>新员工入职培训</span>
+          <span>制度流程宣导</span>
+          <span>安全与合规培训</span>
+          <span>岗位技能提升</span>
+          <span>阶段性认证考试</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <article class="stat-item reveal">
+          <strong class="stat-number" data-count="3" data-suffix="×">0</strong>
+          <p>课程制作效率提升</p>
+        </article>
+        <article class="stat-item reveal">
+          <strong class="stat-number" data-count="89" data-suffix="%">0</strong>
+          <p>平均学习完成率</p>
+        </article>
+        <article class="stat-item reveal">
+          <strong class="stat-number" data-count="100" data-suffix="%">0</strong>
+          <p>培训过程可追溯</p>
+        </article>
+        <article class="stat-item reveal">
+          <strong class="stat-number" data-count="30" data-suffix="s">0</strong>
+          <p>进度心跳追踪间隔</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">核心能力</span>
+          <h2>让培训从被动接受<br class="hide-mobile"/>变为主动参与</h2>
+          <p class="section-desc">四大核心模块，覆盖从课程生产到考核闭环的完整链路</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card feature-card-lg reveal">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.57-3.25 3.92"/><path d="M8.56 9.8A4 4 0 0 1 12 2"/><path d="M17.5 15.5c1 .8 1.5 2 1.5 3.5H5c0-1.5.5-2.7 1.5-3.5"/><path d="M12 10v4m-2 0h4"/><circle cx="12" cy="18" r="1"/><path d="M7 22h10"/></svg>
+            </div>
+            <div class="feature-badge">AI 驱动</div>
+            <h3>AI 智能课程生成</h3>
+            <p>上传培训资料，AI 自动生成完整课程——包括章节结构、学习时间轴、语音旁白脚本、互动检查点与考试题目。从素材到课程，效率提升 3 倍以上。</p>
+            <div class="feature-tags">
+              <span>结构生成</span>
+              <span>时间轴编排</span>
+              <span>旁白合成</span>
+              <span>考题自动出</span>
+            </div>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+            </div>
+            <h3>互动式学习体验</h3>
+            <p>选择题、拖拽匹配、热点点击三种互动检查点嵌入课程，学员边学边练，实时验证理解程度。</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            </div>
+            <h3>全程数据追踪</h3>
+            <p>课时进度、停留时长、互动完成率，培训过程透明可视。管理者随时掌握每位员工的学习状态。</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>考试闭环管理</h3>
+            <p>课程完成后直达考试，支持及格线设定、成绩判定、结果存档与一键导出，形成完整培训闭环。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRODUCT SHOWCASE ========== -->
+    <section class="showcase-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">产品体验</span>
+          <h2>为管理者和学员<br class="hide-mobile"/>分别设计</h2>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card reveal">
+            <div class="showcase-header">
+              <span class="showcase-role">管理员端</span>
+              <span class="showcase-label">Admin</span>
+            </div>
+            <h3>培训运营控制中心</h3>
+            <p>一个后台管理课程全生命周期</p>
+            <ul class="showcase-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                创建与发布 AI 生成课程
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                分配培训任务给员工
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                实时查看学习进度与通过率
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                导出学习记录与考试成绩
+              </li>
+            </ul>
+          </article>
+
+          <article class="showcase-card reveal">
+            <div class="showcase-header">
+              <span class="showcase-role">员工端</span>
+              <span class="showcase-label">Employee</span>
+            </div>
+            <h3>沉浸式学习路径</h3>
+            <p>清晰的任务流，学完即考</p>
+            <ul class="showcase-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                查看已分配的培训课程
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                断点续学，自动记录进度
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                完成互动检查点加深理解
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                课程完成后直接进入考试
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WORKFLOW ========== -->
+    <section id="workflow" class="workflow-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">使用流程</span>
+          <h2>五步完成企业培训数字化</h2>
+        </div>
+
+        <div class="workflow-steps">
+          <article class="workflow-step reveal">
+            <div class="step-number">01</div>
+            <h3>上传培训资料</h3>
+            <p>将已有制度、流程文档、培训素材导入系统</p>
+          </article>
+          <div class="step-connector reveal"></div>
+          <article class="workflow-step reveal">
+            <div class="step-number">02</div>
+            <h3>AI 生成课程</h3>
+            <p>自动生成章节、旁白、互动题与考试内容</p>
+          </article>
+          <div class="step-connector reveal"></div>
+          <article class="workflow-step reveal">
+            <div class="step-number">03</div>
+            <h3>分配学习任务</h3>
+            <p>管理员将课程分配给指定员工或部门</p>
+          </article>
+          <div class="step-connector reveal"></div>
+          <article class="workflow-step reveal">
+            <div class="step-number">04</div>
+            <h3>互动学习</h3>
+            <p>员工按路径学习，完成嵌入的互动检查点</p>
+          </article>
+          <div class="step-connector reveal"></div>
+          <article class="workflow-step reveal">
+            <div class="step-number">05</div>
+            <h3>考试与数据沉淀</h3>
+            <p>学完即考，成绩留档，管理端实时掌握全局</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DEPLOYMENT ========== -->
+    <section id="deploy" class="deploy-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">部署方式</span>
+          <h2>灵活部署，适配不同企业需求</h2>
+        </div>
+
+        <div class="deploy-grid">
+          <article class="deploy-card deploy-featured reveal">
+            <div class="deploy-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="deploy-tag">推荐</div>
+            <h3>Web 云端部署</h3>
+            <p>通过浏览器即可访问，零安装成本。适合远程团队、多地协同和快速试点上线。</p>
+            <ul>
+              <li>浏览器直接访问，无需安装</li>
+              <li>支持远程演示与客户试用</li>
+              <li>便于对接企业内网环境</li>
+            </ul>
+          </article>
+
+          <article class="deploy-card reveal">
+            <div class="deploy-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>桌面私有化部署</h3>
+            <p>独立桌面应用，适合固定终端、弱网环境或有特殊安全要求的企业场景。</p>
+            <ul>
+              <li>支持 macOS / Windows 打包</li>
+              <li>局域网独立运行</li>
+              <li>数据完全本地化存储</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUST ========== -->
+    <section class="trust-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">安全与合规</span>
+          <h2>企业级安全保障</h2>
+        </div>
+
+        <div class="trust-grid">
+          <article class="trust-card reveal">
+            <div class="trust-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>培训过程留痕</h3>
+            <p>课程进度、互动结果、考试成绩完整存档，满足内训考核与管理审计需求。</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>数据私有化</h3>
+            <p>支持本地部署与内网运行，敏感培训数据不出企业边界，完全自主可控。</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>持续迭代扩展</h3>
+            <p>持续更新课程模板、互动类型与管理功能，企业培训能力随业务同步进化。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section id="contact" class="cta-section">
+      <div class="cta-glow"></div>
+      <div class="container cta-content reveal">
+        <h2>开启智能培训之旅</h2>
+        <p>立即预约产品演示，了解 AI互动培训考试系统如何为您的企业赋能</p>
+        <div class="cta-actions">
+          <a class="btn btn-white btn-lg" href="mailto:contact@example.com">预约演示</a>
+          <a class="btn btn-outline-light btn-lg" href="#features">了解更多功能</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="logo" href="#">
+              <span class="logo-icon">
+                <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
+                  <rect width="28" height="28" rx="7" fill="currentColor"/>
+                  <path d="M8 8h12v3H8zm0 5h12v3H8zm0 5h8v3H8z" fill="#09090b" opacity=".85"/>
+                </svg>
+              </span>
+              <span class="logo-text">AI互动培训考试系统</span>
+            </a>
+            <p class="footer-desc">企业一站式智能培训解决方案</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>产品</h4>
+              <a href="#features">产品功能</a>
+              <a href="#workflow">使用流程</a>
+              <a href="#deploy">部署方式</a>
+            </div>
+            <div class="footer-col">
+              <h4>解决方案</h4>
+              <a href="#">新员工培训</a>
+              <a href="#">合规培训</a>
+              <a href="#">技能提升</a>
+            </div>
+            <div class="footer-col">
+              <h4>支持</h4>
+              <a href="#contact">联系我们</a>
+              <a href="#contact">预约演示</a>
+              <a href="#">帮助中心</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024–2026 AI互动培训考试系统. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">隐私政策</a>
+            <a href="#">服务条款</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./main.js"></script>
   </body>
